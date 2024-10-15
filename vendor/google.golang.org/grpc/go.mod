@@ -1,18 +1,29 @@
 module google.golang.org/grpc
 
-go 1.14
+go 1.19
 
 require (
-	github.com/cespare/xxhash/v2 v2.1.1
-	github.com/cncf/udpa/go v0.0.0-20201120205902-5459f2c99403
-	github.com/envoyproxy/go-control-plane v0.9.10-0.20210907150352-cf90f659a021
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/protobuf v1.4.3
-	github.com/google/go-cmp v0.5.0
-	github.com/google/uuid v1.1.2
-	golang.org/x/net v0.0.0-20200822124328-c89045814202
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd
-	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
-	google.golang.org/protobuf v1.25.0
+	github.com/cespare/xxhash/v2 v2.2.0
+	github.com/cncf/xds/go v0.0.0-20240318125728-8a4994d93e50
+	github.com/envoyproxy/go-control-plane v0.12.0
+	github.com/golang/glog v1.2.0
+	github.com/google/go-cmp v0.6.0
+	github.com/google/uuid v1.6.0
+	golang.org/x/net v0.26.0
+	golang.org/x/oauth2 v0.18.0
+	golang.org/x/sync v0.7.0
+	golang.org/x/sys v0.21.0
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240318140521-94a12d6c2237
+	google.golang.org/protobuf v1.33.0
+)
+
+require (
+	cloud.google.com/go/compute v1.25.1 // indirect
+	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	github.com/census-instrumentation/opencensus-proto v0.4.1 // indirect
+	github.com/envoyproxy/protoc-gen-validate v1.0.4 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
+	golang.org/x/text v0.16.0 // indirect
+	google.golang.org/appengine v1.6.8 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20240318140521-94a12d6c2237 // indirect
 )
