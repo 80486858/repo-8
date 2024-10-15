@@ -1923,7 +1923,7 @@ jobs:
         SLACK_WEBHOOK_URL: ${{ secrets.CONSUL_UI_SLACK_WEBHOOK }}
       id: slack
       name: Slack Notification
-      uses: slackapi/slack-github-action@v1.19
+      uses: slackapi/slack-github-action@v1.27
       with:
         payload: "{\n  \"message\": \"One or more nightly UI tests have failed on\
           \ branch ${{ env.BRANCH }} for Consul. ${{ github.server_url }}/${{ github.repository\
