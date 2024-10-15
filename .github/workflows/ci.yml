@@ -3270,49 +3270,49 @@ jobs:
       run: ./mill -i ci.setShouldPublish
     - continue-on-error: true
       if: env.SHOULD_PUBLISH == 'true'
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: linux-launchers
         path: artifacts/
     - continue-on-error: true
       if: env.SHOULD_PUBLISH == 'true'
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: linux-aarch64-launchers
         path: artifacts/
     - continue-on-error: true
       if: env.SHOULD_PUBLISH == 'true'
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: macos-launchers
         path: artifacts/
     - continue-on-error: true
       if: env.SHOULD_PUBLISH == 'true'
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: macos-m1-launchers
         path: artifacts/
     - continue-on-error: true
       if: env.SHOULD_PUBLISH == 'true'
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: windows-launchers
         path: artifacts/
     - continue-on-error: true
       if: env.SHOULD_PUBLISH == 'true'
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: mostly-static-launchers
         path: artifacts/
     - continue-on-error: true
       if: env.SHOULD_PUBLISH == 'true'
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: static-launchers
         path: artifacts/
     - continue-on-error: true
       if: env.SHOULD_PUBLISH == 'true'
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: launchers
         path: artifacts/
@@ -3578,7 +3578,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: linux-launchers
         path: artifacts/
@@ -3859,7 +3859,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: linux-launchers
         path: artifacts/
@@ -4140,7 +4140,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: linux-launchers
         path: artifacts/
@@ -4421,7 +4421,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: linux-launchers
         path: artifacts/
@@ -4702,7 +4702,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: mostly-static-launchers
         path: artifacts/
@@ -5001,7 +5001,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: mostly-static-launchers
         path: artifacts/
@@ -5282,7 +5282,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: mostly-static-launchers
         path: artifacts/
@@ -5563,7 +5563,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: mostly-static-launchers
         path: artifacts/
@@ -5844,7 +5844,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: static-launchers
         path: artifacts/
@@ -6143,7 +6143,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: static-launchers
         path: artifacts/
@@ -6427,7 +6427,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: static-launchers
         path: artifacts/
@@ -6711,7 +6711,7 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: static-launchers
         path: artifacts/
@@ -8102,42 +8102,42 @@ jobs:
       with:
         jvm: temurin:17
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: linux-launchers
         path: artifacts/
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: linux-aarch64-launchers
         path: artifacts/
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: macos-launchers
         path: artifacts/
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: macos-m1-launchers
         path: artifacts/
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: windows-launchers
         path: artifacts/
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: mostly-static-launchers
         path: artifacts/
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: static-launchers
         path: artifacts/
     - continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: launchers
         path: artifacts/
