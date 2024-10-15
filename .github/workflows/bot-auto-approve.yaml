@@ -245,7 +245,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: hmarr/auto-approve-action@v3
+      uses: hmarr/auto-approve-action@v4
       with:
         github-token: ${{ secrets.MERGE_APPROVE_TOKEN }}
         review-message: Auto approved Consul Bot automated PR
