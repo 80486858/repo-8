@@ -645,7 +645,7 @@ jobs:
         '
     - continue-on-error: true
       name: Docker Build (Action)
-      uses: hashicorp/actions-docker-build@v1
+      uses: hashicorp/actions-docker-build@v2
       with:
         arch: ${{matrix.arch}}
         dev_tags: 'docker.io/hashicorppreview/${{ env.repo }}:${{ env.dev_tag }}
@@ -932,7 +932,7 @@ jobs:
 
         '
     - continue-on-error: true
-      uses: hashicorp/actions-docker-build@v1
+      uses: hashicorp/actions-docker-build@v2
       with:
         arch: amd64
         dev_tags: 'docker.io/hashicorppreview/${{ env.repo }}:${{ env.dev_tag }}-ubi
@@ -1205,7 +1205,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v2
     - continue-on-error: true
-      uses: hashicorp/actions-docker-build@v1
+      uses: hashicorp/actions-docker-build@v2
       with:
         arch: amd64
         redhat_tag: quay.io/redhat-isv-containers/60f9fdbec3a80eac643abedf:${{env.version}}-ubi
