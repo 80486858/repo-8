@@ -2034,7 +2034,7 @@ jobs:
     - continue-on-error: true
       if: ${{ matrix.arch == 'arm' || matrix.arch == 'arm64' }}
       name: Set up QEMU
-      uses: docker/setup-qemu-action@v1
+      uses: docker/setup-qemu-action@v3
       with:
         platforms: arm,arm64
     - continue-on-error: true
@@ -2322,7 +2322,7 @@ jobs:
         name: ${{ env.pkg_name }}
     - continue-on-error: true
       name: Set up QEMU
-      uses: docker/setup-qemu-action@v1
+      uses: docker/setup-qemu-action@v3
       with:
         platforms: all
     - continue-on-error: true
@@ -2609,7 +2609,7 @@ jobs:
         name: ${{ env.pkg_name }}
     - continue-on-error: true
       name: Set up QEMU
-      uses: docker/setup-qemu-action@v1
+      uses: docker/setup-qemu-action@v3
       with:
         platforms: all
     - continue-on-error: true
