@@ -19,7 +19,7 @@ maven-plugin-api = "3.9.8"
 maven-project = "2.2.1"
 poet = "1.17.0"
 ## reactor and spring versions should be the same as defined in spring-boot-dependencies
-reactor-core = "3.6.7"
+reactor-core = "3.6.11"
 reactor-extensions = "1.2.2"
 slf4j = "2.0.13"
 spring = "6.1.10"
