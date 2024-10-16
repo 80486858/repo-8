@@ -522,7 +522,7 @@ jobs:
     - continue-on-error: true
       id: check
       name: Check if version has been updated
-      uses: tj-actions/changed-files@v44
+      uses: tj-actions/changed-files@v45
       with:
         files: lib/procore/version.rb
     - name: after
