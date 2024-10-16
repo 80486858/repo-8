@@ -254,7 +254,7 @@ jobs:
     - continue-on-error: true
       run: cargo install cargo-hack
     - continue-on-error: true
-      uses: Swatinem/rust-cache@v2.6.0
+      uses: Swatinem/rust-cache@v2.7.5
     - continue-on-error: true
       run: cargo hack build --workspace --each-feature
     - name: after
@@ -511,7 +511,7 @@ jobs:
       with:
         toolchain: 1.61
     - continue-on-error: true
-      uses: Swatinem/rust-cache@v2.6.0
+      uses: Swatinem/rust-cache@v2.7.5
     - continue-on-error: true
       run: cargo build --workspace --all-features
     - name: after
@@ -1282,7 +1282,7 @@ jobs:
       with:
         toolchain: stable
     - continue-on-error: true
-      uses: Swatinem/rust-cache@v2.6.0
+      uses: Swatinem/rust-cache@v2.7.5
     - continue-on-error: true
       run: cargo test --workspace --all-features
     - name: after
