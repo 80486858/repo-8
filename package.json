@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "@openzeppelin/contracts-upgradeable": "^4.3.2",
+    "@openzeppelin/contracts-upgradeable": "^4.9.6",
     "@openzeppelin/hardhat-upgrades": ">=1.28.0 <2.0.0",
     "@skalenetwork/upgrade-tools": "^2.0.2",
     "dotenv": "^16.4.5",
