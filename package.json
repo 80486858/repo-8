@@ -63,7 +63,7 @@
     "mocha": "^7.1.1",
     "nock": "^12.0.3",
     "should": "^7.1.0",
-    "sinon": "^7.5.0"
+    "sinon": "^19.0.2"
   },
   "main": "./lib/logzio-nodejs",
   "engines": {
