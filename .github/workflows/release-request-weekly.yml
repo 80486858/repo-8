@@ -248,7 +248,7 @@ jobs:
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
       name: Install Ruby ${{ env.ruby_version }}
-      uses: ruby/setup-ruby@v1.190.0
+      uses: ruby/setup-ruby@v1.197.0
       with:
         ruby-version: ${{ env.ruby_version }}
     - continue-on-error: true
