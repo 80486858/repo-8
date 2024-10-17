@@ -8,4 +8,4 @@ source 'https://rubygems.org'
 
 gem 'rake', '~> 13.0'
 gem 'rubocop', '~> 1.65.1'
-gem 'rubocop-performance', '~> 1.21.0'
+gem 'rubocop-performance', '~> 1.22.1'
