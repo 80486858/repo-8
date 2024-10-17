@@ -1,5 +1,17 @@
 # Release History: opentelemetry-instrumentation-pg
 
+## [0.27.4](https://github.com/80486858/repo-8/compare/opentelemetry-instrumentation-pg-v0.27.3...opentelemetry-instrumentation-pg/v0.27.4) (2024-10-17)
+
+
+### Features
+
+* collect pg db.collection_name attribute ([#1087](https://github.com/80486858/repo-8/issues/1087)) ([70fdad6](https://github.com/80486858/repo-8/commit/70fdad63cda07b976b0d0ce9c9566d5a93d1b978))
+
+
+### Bug Fixes
+
+* **pg:** update versions to be tested (includes drop support for pg 1.2) ([#1108](https://github.com/80486858/repo-8/issues/1108)) ([19c86ca](https://github.com/80486858/repo-8/commit/19c86ca72ae338fab29311c8a6fdcdac4410e636))
+
 ### v0.28.0 / 2024-08-15
 
 * ADDED: Collect pg db.collection_name attribute

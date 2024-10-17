@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-racecar
 
+## [0.3.3](https://github.com/80486858/repo-8/compare/opentelemetry-instrumentation-racecar-v0.3.2...opentelemetry-instrumentation-racecar/v0.3.3) (2024-10-17)
+
+
+### Bug Fixes
+
+* suppress header access with symbol key deprecation warning in Racecar Instrumentation ([#1040](https://github.com/80486858/repo-8/issues/1040)) ([08f11ae](https://github.com/80486858/repo-8/commit/08f11aecd7e19bc50024f1979c3e6af4101b220a))
+
 ### v0.3.4 / 2024-07-09
 
 * FIXED: Suppress header access with symbol key deprecation warning in Racecar Instrumentation

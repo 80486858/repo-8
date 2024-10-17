@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-rdkafka
 
+## [0.4.7](https://github.com/80486858/repo-8/compare/opentelemetry-instrumentation-rdkafka-v0.4.6...opentelemetry-instrumentation-rdkafka/v0.4.7) (2024-10-17)
+
+
+### Bug Fixes
+
+* link to rdkafka example ([c662f1c](https://github.com/80486858/repo-8/commit/c662f1c427677342bded371634d43812d3753e7d))
+
 ### v0.4.8 / 2024-07-23
 
 * DOCS: Link to rdkafka example

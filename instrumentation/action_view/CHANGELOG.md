@@ -1,5 +1,17 @@
 # Release History: opentelemetry-instrumentation-action_view
 
+## [0.7.1](https://github.com/80486858/repo-8/compare/opentelemetry-instrumentation-action_view-v0.7.0...opentelemetry-instrumentation-action_view/v0.7.1) (2024-10-17)
+
+
+### Features
+
+* Use Default Span Name Format ([#1039](https://github.com/80486858/repo-8/issues/1039)) ([f999e70](https://github.com/80486858/repo-8/commit/f999e702430a55bc9f0fdf7b4748dc2f9b6341b8))
+
+
+### Reverts
+
+* "feat: Use Default Span Name Format ([#1039](https://github.com/80486858/repo-8/issues/1039))" ([#1107](https://github.com/80486858/repo-8/issues/1107)) ([7e5c376](https://github.com/80486858/repo-8/commit/7e5c376cf8e3cfee28416b7854606a9ac3a6f964))
+
 ### v0.7.2 / 2024-08-15
 
 * (No Significant Changes)
