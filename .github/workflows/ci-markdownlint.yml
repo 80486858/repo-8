@@ -248,7 +248,7 @@ jobs:
       uses: actions/checkout@v4
     - continue-on-error: true
       name: Markdown Lint Check
-      uses: DavidAnson/markdownlint-cli2-action@v16
+      uses: DavidAnson/markdownlint-cli2-action@v17
       with:
         continue-on-error: true
         fix: false
