@@ -253,7 +253,7 @@ jobs:
       uses: ./.github/actions/espresso
     - continue-on-error: true
       name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v2.1.0
+      uses: codecov/codecov-action@v4.6.0
       with:
         fail_ci_if_error: true
     - name: after
